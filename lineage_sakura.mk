@@ -23,7 +23,6 @@ PRODUCT_NAME := lineage_sakura
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 6 Pro
 PRODUCT_MANUFACTURER := Xiaomi
-TARGET_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

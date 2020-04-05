@@ -22,7 +22,6 @@ PRODUCT_NAME := lineage_daisy
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A2 lite
 PRODUCT_MANUFACTURER := Xiaomi
-TARGET_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
