@@ -49,6 +49,11 @@ endif
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/wakeup_gesture"
 
+ifeq ($(TARGET_DEVICE), sakura)
+# Recovery
+BOARD_USES_FULL_RECOVERY_IMAGE := true
+endif
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
