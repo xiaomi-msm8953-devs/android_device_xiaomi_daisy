@@ -10,7 +10,7 @@ DEVICE_PATH := device/xiaomi/daisy
 include device/xiaomi/msm8953-common/BoardConfigCommon.mk
 
 # Kernel
-TARGET_KERNEL_CONFIG := daisy_defconfig
+TARGET_KERNEL_CONFIG += xiaomi/daisy.config
 
 # Filesystem
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
