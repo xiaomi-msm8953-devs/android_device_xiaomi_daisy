@@ -34,5 +34,8 @@ TARGET_COPY_OUT_VENDOR := vendor
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/wakeup_gesture"
+
 # Inherit the proprietary files
 include vendor/xiaomi/daisy/BoardConfigVendor.mk
