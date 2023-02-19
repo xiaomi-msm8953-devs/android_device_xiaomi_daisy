@@ -9,5 +9,8 @@ DEVICE_PATH := device/xiaomi/daisy
 # Inherit from common msm8953-common
 include device/xiaomi/msm8953-common/BoardConfigCommon.mk
 
+# Kernel
+TARGET_KERNEL_CONFIG := daisy_defconfig
+
 # Inherit the proprietary files
 include vendor/xiaomi/daisy/BoardConfigVendor.mk
