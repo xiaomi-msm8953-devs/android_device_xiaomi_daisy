@@ -3,3 +3,7 @@ persist.vendor.audio.fluence.speaker=true
 persist.vendor.audio.fluence.voicecall=true
 persist.vendor.audio.fluence.voicerec=false
 ro.vendor.audio.sdk.fluencetype=fluence
+
+# Camera
+persist.vendor.camera.dual.camera=0
+persist.vendor.camera.aux.camera=1
