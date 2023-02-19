@@ -23,5 +23,8 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 805306368
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # Inherit the proprietary files
 include vendor/xiaomi/daisy/BoardConfigVendor.mk
