@@ -48,6 +48,11 @@ PRODUCT_PACKAGES += \
     camera.msm8953 \
     libmm-qcamera
 
+# Consumer IR
+PRODUCT_PACKAGES += \
+    android.hardware.ir@1.0-impl \
+    android.hardware.ir@1.0-service
+
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
