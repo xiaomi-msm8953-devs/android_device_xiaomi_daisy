@@ -43,6 +43,11 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-service \
     bootctrl.msm8953
 
+# Camera
+PRODUCT_PACKAGES += \
+    camera.msm8953 \
+    libmm-qcamera
+
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
