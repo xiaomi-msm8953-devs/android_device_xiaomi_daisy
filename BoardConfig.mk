@@ -5,12 +5,13 @@
 #
 
 DEVICE_PATH := device/xiaomi/daisy
+USES_DEVICE_XIAOMI_DAISY := true
 
 # Inherit from common msm8953-common
 include device/xiaomi/msm8953-common/BoardConfigCommon.mk
 
 # Kernel
-TARGET_KERNEL_CONFIG += xiaomi/daisy.config
+TARGET_KERNEL_CONFIG += xiaomi/daisy.config xiaomi/sakura.config
 
 ifeq ($(AB_OTA_UPDATER), true)
 # Filesystem
@@ -29,8 +30,15 @@ endif
 TARGET_SCREEN_DENSITY := 420
 
 # Partitions
+ifeq ($(TARGET_DEVICE), daisy)
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2684354560
 BOARD_VENDORIMAGE_PARTITION_SIZE := 805306368
+else ifeq ($(TARGET_DEVICE), sakura)
+BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456
+BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
+BOARD_VENDORIMAGE_PARTITION_SIZE := 872415232
+endif
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 
