@@ -7,3 +7,6 @@ ro.vendor.audio.sdk.fluencetype=fluence
 # Camera
 persist.vendor.camera.dual.camera=0
 persist.vendor.camera.aux.camera=1
+
+# SKU
+ro.boot.product.hardware.sku=qcrild
