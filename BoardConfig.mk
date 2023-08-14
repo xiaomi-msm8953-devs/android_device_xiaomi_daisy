@@ -42,9 +42,10 @@ endif
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 
-ifeq ($(AB_OTA_UPDATER), true)
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+ifeq ($(AB_OTA_UPDATER), true)
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest_AB.xml
 endif
 
 # Power
