@@ -15,7 +15,6 @@ TARGET_KERNEL_CONFIG += xiaomi/daisy.config xiaomi/sakura.config
 
 ifeq ($(AB_OTA_UPDATER), true)
 # Filesystem
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NO_RECOVERY := true
 
