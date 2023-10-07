@@ -44,8 +44,8 @@ vendor/lib/libarcsoft_high_dynamic_range.so
 vendor/bin/mm-qcamera-daemon
 
 # Camera libts - from daisy-user 8.1.0 OPM1.171019.019 V9.6.4.0.ODLMIFF release-keys
--vendor/lib/libts_detected_face_hal.so|247470e7610f93b0a21d943f5e47ab61a032b1e0
--vendor/lib/libts_face_beautify_hal.so|4b8700003fd32f5a6a650821b86ed33e73992d10
+-vendor/lib/libts_detected_face_hal.so|247470e7610f93b0a21d943f5e47ab61a032b1e0|356a49713693fa83d058e968c00d129d85c8acfb
+-vendor/lib/libts_face_beautify_hal.so|4b8700003fd32f5a6a650821b86ed33e73992d10|5b2ffbbd2b03eb4b1b98d89c04bdd3873db4bb7f
 
 # Camera chromatix
 vendor/lib/libchromatix_ov12a10_sunny_sakura_4k_preview_dw9763.so
