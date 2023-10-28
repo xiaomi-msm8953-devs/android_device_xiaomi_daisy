@@ -48,8 +48,7 @@ endif
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.msm8953 \
-    libmm-qcamera
+    camera.msm8953
 
 # Consumer IR
 PRODUCT_PACKAGES += \
