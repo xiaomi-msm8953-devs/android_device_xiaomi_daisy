@@ -60,7 +60,8 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.xiaomi_msm8953
 
 PRODUCT_PACKAGES += \
-    com.fingerprints.extension@1.0.vendor
+    com.fingerprints.extension@1.0.vendor \
+    libvendor.goodix.hardware.fingerprint@1.0.vendor
 
 ifeq ($(AB_OTA_UPDATER), true)
 # Update engine
