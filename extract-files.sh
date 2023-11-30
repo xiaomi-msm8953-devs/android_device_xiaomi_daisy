@@ -11,6 +11,10 @@ function blob_fixup() {
         vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so)
             "${PATCHELF_0_8}" --remove-needed "libprotobuf-cpp-lite.so" "${2}"
             ;;
+        vendor/lib64/libgf_hal.so)
+            # NOP gf_hal_test_notify_acquired_info()
+            "${SIGSCAN}" -p "10 03 00 d0 11 52 46 f9" -P "10 03 00 d0 1f 20 03 d5" -f "${2}"
+            ;;
     esac
 
     # For all ELF files
