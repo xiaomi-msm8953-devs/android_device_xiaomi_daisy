@@ -1,4 +1,5 @@
 # Not appended blobs from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
+# sakura: sakura-user 9 PKQ1.180917.001 V12.0.1.0.PDICNXM release-keys
 
 # Audio ACDB
 vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
@@ -620,8 +621,10 @@ vendor/lib/libmmcamera_ubifocus_lib.so
 # Consumerir
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.msm8953.so
 
-# Fingerprint
-vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.default.so
+# Fingerprint (fpc) - from sakura
+vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.default.so|41b69bb7a13d9a00a59f0a855a2f9087e43281da
+
+# Fingerprint (goodix)
 vendor/lib64/hw/gf_fingerprint.default.so:vendor/lib64/hw/gf_fingerprint.goodix.default.so
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
