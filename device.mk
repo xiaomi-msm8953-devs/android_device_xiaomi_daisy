@@ -17,7 +17,8 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    vendor/fingerprint/opensource/interfaces
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
