@@ -29,5 +29,5 @@ TARGET_VENDOR := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="sakura-user 9 PKQ1.180917.001 V12.0.1.0.PDICNXM release-keys"
+    BuildDesc="sakura-user 9 PKQ1.180917.001 V12.0.1.0.PDICNXM release-keys" \
     BuildFingerprint=xiaomi/sakura/sakura:9/PKQ1.180917.001/V12.0.1.0.PDICNXM:user/release-keys
