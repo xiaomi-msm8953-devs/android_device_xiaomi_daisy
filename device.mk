@@ -79,9 +79,6 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_engine_sideload \
     update_verifier
-
-PRODUCT_PACKAGES_DEBUG += \
-    update_engine_client
 endif
 
 # Call the proprietary setup
